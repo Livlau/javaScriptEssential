@@ -1,3 +1,12 @@
+//Create variables for userRole, accessLevel, isLoggedIn, userMessage, userType, userCategory, isAuthenticated, and authenticationStatus
+// Implementing control flow:
+//Use if…else statements to assign access levels based on user roles.
+//Implement nested if…else statements to customize messages based on login status and user roles.
+//Utilize a switch statement to categorize users based on their type.
+//Use a ternary operator to determine the authentication status.
+//Depending on the value of isAuthenticated, set the authenticationStatus as "Authenticated" or "Not authenticated."
+
+
 let userRole = "admin";
 let accessLevel;
 
